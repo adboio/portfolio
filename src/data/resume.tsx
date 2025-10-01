@@ -142,6 +142,27 @@ export const DATA: {
   ],
   projects: [
     {
+      title: 'CreatorCookbooks',
+      href: 'https://www.creatorcookbooks.com',
+      dates: 'Fall 2025',
+      active: true,
+      description: 'The easiest way for creators to make and sell a cookbook.',
+      technologies: [
+        'Supabase',
+        'Resend',
+        'NextJS',
+        'Forkfile AI'
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://www.creatorcookbooks.com',
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/cc-banner.jpg",
+    },
+    {
       title: "Forkfile",
       href: "https://getforkfile.com",
       dates: "Fall 2024",
