@@ -90,7 +90,7 @@ export default function MinimalPage() {
         <h2 className="text-lg font-bold mb-6 uppercase tracking-wider">
           Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {DATA.projects.map((project) => (
             <Link
               key={project.title}

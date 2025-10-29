@@ -128,8 +128,7 @@ export const DATA: {
       logoUrl: "/amazon.png",
       start: "Apr 2022",
       end: "Nov 2025",
-      description: "built a cool new marketplace (NDA rip), bunch of ML/data pipelines, agentic testing framework, and human-in-the-loop system for customer service. mentored several junior engs / interns / non-SDE folks."
-      // description: "Currently focused on optimizing customer return rate & product regionalization. On my previous team, spent ~1 year helping build a new Amazon storefront, where I was responsible for the design & implementation of a \"benefits\" program associated with product purchases (under NDA)."
+      description: "built a cool new marketplace (NDA rip), bunch of ML/data pipelines, agentic testing framework, and human-in-the-loop system for customer service. mentored several junior engs / interns / non-SDE folks. left to get back into the startup scene."
     },
     {
       company: "Tukios",
@@ -138,7 +137,6 @@ export const DATA: {
       start: "Nov 2020",
       end: "Apr 2022",
       description: 'responsible for a large part of Tukios\' website product. built an automated web scraper for obituaries to growth-hack / simplify onboarding, plus a custom website builder/launcher/cms platform. tukios is almost the #1 funeral home website provider now 🤫',
-      // description: "Responsible for a large part of Tukios' website platform. Built a robust web scraping tool that gathered over 1/2 million obituaries per year, designed & implemented a project management system for website design + launch, and integrated Tukios tech with a white labeled website builder."
     },
     {
       company: "Imagicode",
@@ -148,7 +146,6 @@ export const DATA: {
       start: "Jan 2019",
       end: "Jun 2020",
       description: 'worked at a coding camp -> boss left the country and went dark -> so we stole his clients. taught kids to code in summer camps & after-school clubs til covid hit, then acquired by a local STEM school in June 2020 to expand their direct-to-school offerings.'
-      // description: "Imagicode, LLC traveled to elementary schools across the Triangle area teaching computer science in after-school clubs. Acquired by Betabox, Inc. June 2020 to expand direct-to-consumer offerings."
     },
     {
       company: "Heller PR",
@@ -157,21 +154,32 @@ export const DATA: {
       start: "Nov 2018",
       end: "Nov 2024",
       description: 'built creative software for lots of different clients. fun: ended up co-founding a nonprofit and built a cool web VR experience to accompany an in-person event. less fun, more impressive: a complete practice mgmt system for an adult ADHD clinic resulting in +100% prospective patients/year and +25% new patients/year with 50% less staff.'
-      // description: "Designed and developed creative software solutions for a multitude of clients. Recently built a complete practice management & automation platform for an adult ADHD clinic, resulting in +100% prospective patients/yr and +25% new patients/yr with 50% less staff."
     },
   ],
   projects: [
+    {
+      title: 'tinycounter [coming soon]',
+      // href: 'https://www.creatorcookbooks.com',
+      dates: 'Fall 2025',
+      active: true,
+      description: 'a tiny, deceptively-simple app for counting stuff.',
+      technologies: [
+        // 'React Native',
+        // 'Supabase'
+      ],
+      image: "/tinycounter-banner.png",
+    },
     {
       title: 'CreatorCookbooks',
       href: 'https://www.creatorcookbooks.com',
       dates: 'Fall 2025',
       active: true,
-      description: 'The easiest way for creators to make and sell a cookbook.',
+      description: 'the easiest way for creators to make and sell a cookbook.',
       technologies: [
-        'Supabase',
-        'Resend',
-        'NextJS',
-        'Forkfile AI'
+        // 'Supabase',
+        // 'Resend',
+        // 'NextJS',
+        // 'Forkfile AI'
       ],
       links: [
         {
@@ -183,16 +191,27 @@ export const DATA: {
       image: "/cc-banner.jpg",
     },
     {
+      title: 'VibeClinic',
+      href: 'https://vibeclinic.io',
+      dates: 'Fall 2025',
+      active: true,
+      description: 'your vibe-coded app is broken, let us help you fix it.',
+      technologies: [
+        // 'Framer (lol)'
+      ],
+      image: "/vibeclinic-og.png",
+    },
+    {
       title: "Forkfile",
       href: "https://getforkfile.com",
       dates: "Fall 2024",
       active: true,
-      description: "Built an iOS app to solve one of my biggest (small) problems. Forkfile converts social media recipe videos to text with AI!",
+      description: "iOS app to solve one of my biggest (small) problems. share a recipe video to forkfile, get an actually-usable recipe.",
       technologies: [
-        "Supabase",
-        "Swift",
-        "GenAI",
-        "AWS"
+        // "Supabase",
+        // "Swift",
+        // "GenAI",
+        // "AWS"
       ],
       links: [
         {
@@ -209,36 +228,16 @@ export const DATA: {
       image: "/forkfile-banner.jpg",
     },
     {
-      title: "TheMailButton",
-      href: "https://www.themailbutton.com",
-      dates: "April 2025",
-      active: true,
-      description: "Press The Mail Button. Send a beautiful 4x6 postcard in seconds.",
-      technologies: [
-        "Supabase",
-        "Next.js/React",
-        "The USPS 😛"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.themailbutton.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/mailbutton-banner.jpg",
-    },
-    {
       title: "FirstClassMeme",
       href: "https://www.firstclassmeme.com",
       dates: "April 2025",
       active: true,
-      description: "Send a customzied meme in the actual physical mail.",
+      description: "send a customized meme in the actual physical mail",
       technologies: [
-        "Supabase",
-        "Next.js/React",
-        "Docker",
-        "The USPS 😛",
+        // "Supabase",
+        // "Next.js/React",
+        // "Docker",
+        // "The USPS 😛",
       ],
       links: [
         {
